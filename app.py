@@ -13,14 +13,11 @@ if page == "Homepage":
     st.title("Welcome to My Portfolio!")
     st.image("https://cdn.discordapp.com/attachments/1281945784769843210/1312990098748608542/LINE_ALBUM__241202_2.jpg?ex=674e80d1&is=674d2f51&hm=c7aa41c99438e7c966afe599ebea8b1f969163f2d1e3af0e9108c94ed987d72e&", caption="Your Amazing Banner Image", use_column_width=True)
     st.write("""
-    Hi! I'm Nipitpon Sutthaluck, a passionate [Your Profession] with expertise in [Your Skills or Specializations].
+    Hi! I'm Nipitpon Sutthaluck,  i have a expertise in  Unity 3D program and blender program , i have a bacis for coding python and C# script
     
     ### About Me
-    I specialize in:
-    - Data Science
-    - Machine Learning
-    - Web Development
-
+    I am interested in pursuing a degree in Computer Engineering.
+    I have a dream that one day I will become a programmer, and I want to study at Srinakharinwirot University
     ### My Projects
     1. **Project 1**: [Description or Link]
     2. **Project 2**: [Description or Link]
