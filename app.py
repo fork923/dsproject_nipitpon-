@@ -11,7 +11,7 @@ page = st.sidebar.radio("Go to", ["Homepage", "Contact Us", "AI Project"])
 # Homepage
 if page == "Homepage":
     st.title("Welcome to My Portfolio!")
-    st.image("file:///C:/Users/%E0%B9%82%E0%B8%9F/Downloads/LINE_ALBUM_%E0%B8%A3%E0%B8%B9%E0%B8%9B%E0%B9%83%E0%B8%AA%E0%B9%88%E0%B8%9E%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B8%95_241202_2.jpg", caption="Your Amazing Banner Image", use_column_width=True)
+    st.image("https://cdn.discordapp.com/attachments/1281945784769843210/1312990098748608542/LINE_ALBUM__241202_2.jpg?ex=674e80d1&is=674d2f51&hm=c7aa41c99438e7c966afe599ebea8b1f969163f2d1e3af0e9108c94ed987d72e&", caption="Your Amazing Banner Image", use_column_width=True)
     st.write("""
     Hi! I'm Nipitpon Sutthaluck, a passionate [Your Profession] with expertise in [Your Skills or Specializations].
     
