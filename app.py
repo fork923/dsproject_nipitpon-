@@ -6,7 +6,7 @@ st.set_page_config(page_title="Portfolio App", layout="wide")
 
 # Sidebar navigation
 st.sidebar.title("Navigation")
-page = st.sidebar.radio("Go to", ["Homepage", "Contact Us", "AI Project"])
+page = st.sidebar.radio("Go to", ["Homepage", "Contact Us"])
 
 # Homepage
 if page == "Homepage":
@@ -18,12 +18,9 @@ if page == "Homepage":
     ### About Me
     - I am interested in pursuing a degree in Computer Engineering.
     - I have a dream that one day I will become a programmer, and I want to be study at Srinakharinwirot University
-    ### My Projects
-    1. **Project 1**: [Description or Link]
-    2. **Project 2**: [Description or Link]
-    3. **Project 3**: [Description or Link]
+    
 
-    Feel free to explore and get in touch with me!
+   Feel free to explore and get in touch with me!
     """)
 
 
@@ -46,6 +43,5 @@ elif page == "Contact Us":
     
     # Additional Contact Info
     st.write("### Alternatively, you can reach me at:")
-    st.write("- Email: your_email@example.com")
-    st.write("- LinkedIn: [Your LinkedIn Profile](https://linkedin.com)")
+    st.write("- Email: nipitponsuttluck@gmail.com")
     st.write("- GitHub: [Your GitHub Profile](https://github.com)")
