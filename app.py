@@ -44,4 +44,4 @@ elif page == "Contact Us":
     # Additional Contact Info
     st.write("### Alternatively, you can reach me at:")
     st.write("- Email: nipitponsuttluck@gmail.com")
-    st.write("- GitHub: [Your GitHub Profile](https://github.com)")
+    st.write("- GitHub: https://github.com/fork923)")
