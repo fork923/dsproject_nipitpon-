@@ -16,8 +16,8 @@ if page == "Homepage":
     Hi! I'm Nipitpon Sutthaluck,  i have a expertise in  Unity 3D program and blender program , i have a bacis for coding python and C# script
     
     ### About Me
-    I am interested in pursuing a degree in Computer Engineering.
-    I have a dream that one day I will become a programmer, and I want to study at Srinakharinwirot University
+    - I am interested in pursuing a degree in Computer Engineering.
+    - I have a dream that one day I will become a programmer, and I want to study at Srinakharinwirot University
     ### My Projects
     1. **Project 1**: [Description or Link]
     2. **Project 2**: [Description or Link]
