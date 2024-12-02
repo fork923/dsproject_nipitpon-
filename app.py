@@ -13,7 +13,7 @@ if page == "Homepage":
     st.title("Welcome to My Portfolio!")
     st.image("file:///C:/Users/%E0%B9%82%E0%B8%9F/Downloads/LINE_ALBUM_%E0%B8%A3%E0%B8%B9%E0%B8%9B%E0%B9%83%E0%B8%AA%E0%B9%88%E0%B8%9E%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B8%95_241202_2.jpg", caption="Your Amazing Banner Image", use_column_width=True)
     st.write("""
-    Hi! I'm [Your Name], a passionate [Your Profession] with expertise in [Your Skills or Specializations].
+    Hi! I'm Nipitpon Sutthaluck, a passionate [Your Profession] with expertise in [Your Skills or Specializations].
     
     ### About Me
     I specialize in:
@@ -32,7 +32,6 @@ if page == "Homepage":
 if page == "AI Project":
     st.title("My AI Project!")
     # Load the trained model
-    model = joblib.load("titanic_model.pkl")
 
     # Input fields for user to provide passenger details
     st.header("Enter Passenger Details:")
