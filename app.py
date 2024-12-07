@@ -6,11 +6,11 @@ st.set_page_config(page_title="Portfolio App", layout="wide")
 
 # Sidebar navigation
 st.sidebar.title("Navigation")
-page = st.sidebar.radio("Go to", ["Homepage", "BMI Calculator", "Contact Us"])
+page = st.sidebar.radio("Go to", ["Profile", "BMI Calculator", "Contact Us"])
 
 # Homepage
-if page == "Homepage":
-    st.title("Welcome to My Portfolio for Srinakharinwirot University application!")
+if page == "Profile":
+    st.title("Welcome to My Profile for Srinakharinwirot University application!")
     st.image("https://cdn.discordapp.com/attachments/1281945784769843210/1312990098748608542/LINE_ALBUM__241202_2.jpg?ex=674e80d1&is=674d2f51&hm=c7aa41c99438e7c966afe599ebea8b1f969163f2d1e3af0e9108c94ed987d72e&", caption="My Profile", use_column_width=True)
     st.write("""
     Hi! I'm Nipitpon Sutthaluck,  i have a expertise in  Unity 3D program and blender program , i have a bacis for coding python and C# script
