@@ -25,8 +25,9 @@ if page == "Homepage":
 if page == "BMI Calculator":
         st.title("Welcome to BMI Calculator")
         name = st.text_input("Enter Your name", "Type Here ...")
-
-   
+             if(st.button('Submit')):
+                result = name.title()
+                st.success(result)
 
 
 # Contact Us
