@@ -25,18 +25,11 @@ if page == "Homepage":
     if page == "BMI Calculator":
         st.title("Welcome to BMI Calculator")
         name = st.text_input("Enter Your name", "Type Here ...")
-
-# display the name when the submit button is clicked
-# .title() is used to get the input text string
-if(st.button('Submit')):
-    result = name.title()
-    st.success(result)
-    # slider
-
-# first argument takes the title of the slider
-# second argument takes the starting of the slider
-# last argument takes the end number
-old = st.slider("Select the old", 1, 100)
+    if(st.button('Submit')):
+        result = name.title()
+        st.success(result)
+   
+    old = st.slider("Select the old", 1, 100)
 
 # print the level
 # format() is used to print value 
