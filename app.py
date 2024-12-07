@@ -11,7 +11,7 @@ page = st.sidebar.radio("Go to", ["Profile", "BMI Calculator", "Contact Us"])
 # Homepage
 if page == "Profile":
     st.title("Welcome to My Profile for Srinakharinwirot University application!")
-    st.image("https://cdn.discordapp.com/attachments/1281945784769843210/1312990098748608542/LINE_ALBUM__241202_2.jpg?ex=674e80d1&is=674d2f51&hm=c7aa41c99438e7c966afe599ebea8b1f969163f2d1e3af0e9108c94ed987d72e&", caption="My Profile", use_column_width=True)
+    st.image("https://media.discordapp.net/attachments/1281945784769843210/1312990098748608542/LINE_ALBUM__241202_2.jpg?ex=67546f91&is=67531e11&hm=6726c846e4abcdd7ba63276c291e1a4c7c628b1df8da397e5737239acb20bf5e&=&format=webp&width=328&height=437", caption="My Profile", use_column_width=True)
     st.write("""
     Hi! I'm Nipitpon Sutthaluck,  i have a expertise in  Unity 3D program and blender program , i have a bacis for coding python and C# script
     
