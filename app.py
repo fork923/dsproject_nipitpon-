@@ -31,21 +31,21 @@ if page == "BMI Calculator":
         age = st.text_input("Enter Your age")
      # import the streamlit library
 
-# give a title to our app
-st.title('Welcome to BMI Calculator')
+
+        st.title('Welcome to BMI Calculator')
 
 # TAKE WEIGHT INPUT in kgs
-weight = st.number_input("Enter your weight (in kgs)")
+        weight = st.number_input("Enter your weight (in kgs)")
 
 # TAKE HEIGHT INPUT
 # radio button to choose height format
-status = st.radio('Select your height format: ',
+        status = st.radio('Select your height format: ',
                   ('cms', 'meters', 'feet'))
 
 
 
     #
-    height = st.number_input('Centimeters')
+        height = st.number_input('Centimeters')
 
     try:
         bmi = weight / ((height/100)**2)
