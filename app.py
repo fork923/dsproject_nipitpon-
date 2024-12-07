@@ -22,7 +22,7 @@ if page == "Homepage":
 
    I hope to receive a response from the Srinakharinwirot university !
     """)
-    if page == "BMI Calculator":
+    elif page == "BMI Calculator":
         st.title("Welcome to BMI Calculator")
         name = st.text_input("Enter Your name", "Type Here ...")
     if(st.button('Submit')):
