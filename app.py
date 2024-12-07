@@ -26,7 +26,7 @@ if page == "BMI Calculator":
     with st.form("contact_form"):
         name = st.text_input("Enter Your Name")
          submitted = st.form_submit_button("Submit")
-        if submitted:
+          if submitted:
             st.success(name)
         age = st.text_input("Enter Your age")
         
