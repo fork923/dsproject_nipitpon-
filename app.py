@@ -20,7 +20,7 @@ if page == "Homepage":
     - I have a dream that one day I will become a programmer, and I want to be study at Srinakharinwirot University
     
 
-   Feel free to explore and get in touch with me!
+   I hope to receive a response from the Srinakharinwirot university
     """)
 
 
