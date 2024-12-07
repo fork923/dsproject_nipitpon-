@@ -24,7 +24,6 @@ if page == "Homepage":
     """)
     if page == "BMI Calculator":
         # import the streamlit library
-import streamlit as st
 
 # give a title to our app
 st.title('Welcome to BMI Calculator')
