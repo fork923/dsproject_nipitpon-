@@ -23,16 +23,8 @@ if page == "Homepage":
    I hope to receive a response from the Srinakharinwirot university !
     """)
     if page == "BMI Calculator":
-        # import the streamlit library
-
-# give a title to our app
-st.title('Welcome to BMI Calculator')
-# Text Input
-
-# save the input text in the variable 'name'
-# first argument shows the title of the text input box
-# second argument displays a default text inside the text input area
-name = st.text_input("Enter Your name", "Type Here ...")
+        st.title("Welcome to BMI Calculator")
+        name = st.text_input("Enter Your name", "Type Here ...")
 
 # display the name when the submit button is clicked
 # .title() is used to get the input text string
