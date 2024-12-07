@@ -27,11 +27,9 @@ if page == "BMI Calculator":
         name = st.text_input("Enter Your Name")
          submitted = st.form_submit_button("Submit")
         if submitted:
-            st.write(name)
+            st.success(name)
         age = st.text_input("Enter Your age")
-        submitted = st.form_submit_button("Submit")
-        if submitted:
-            st.write(age)
+        
 
 
 # Contact Us
